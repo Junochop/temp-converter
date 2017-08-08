@@ -6,8 +6,13 @@ var buttonClear = document.getElementById("clear");
 
 
 button.addEventListener("click", determineConverter);
-
 buttonClear.addEventListener("click", clearField);
+
+// function enterButton() {
+// 	if (event.which === 13) {
+
+// 	}
+// }
 
 function clearField () { 
   document.getElementById("iniTemp").value = '';
